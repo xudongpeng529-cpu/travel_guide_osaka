@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旅行檢查表 | 關西家庭旅遊攻略</title>
+    <meta
+      name="description"
+      content="關西家庭旅遊出發前、每日出門前與回程前 Checklist。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="notes">
+    <div class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">Travel Checklist</p>
+        <h1>旅行檢查表</h1>
+        <p>出發前、每日出門前與回程前需要確認的事項，都集中在這裡。勾選狀態會自動保存在目前裝置。</p>
+      </header>
+
+      <nav class="section-nav site-nav" aria-label="頁面導覽">
+        <a href="index.html">行程</a>
+        <a href="resources.html">工具箱</a>
+        <a class="is-active" href="notes.html">Checklist</a>
+      </nav>
+
+      <main id="app">
+        <section class="content-section content-section--first">
+          <div class="checklist-grid" id="checklist-container">
+            <!-- 由 JavaScript 動態產生 -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="data/trip-meta.js"></script>
+    <script src="data/days/day1.js"></script>
+    <script src="data/days/day2.js"></script>
+    <script src="data/days/day3.js"></script>
+    <script src="data/days/day4.js"></script>
+    <script src="data/days/day5.js"></script>
+    <script src="data/days/day6.js"></script>
+    <script src="data/days/day7.js"></script>
+    <script src="data/days/day8.js"></script>
+    <script src="data/trip-data.js"></script>
+    <script src="data/checklist.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

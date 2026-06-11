@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>行程 | 京阪奈家庭自由行攻略</title>
+    <meta
+      name="description"
+      content="2026 京阪奈家庭自由行每日行程，包含大阪、京都、奈良、嵐山、USJ、交通、住宿與旅行工具。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="itinerary">
+    <div class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow"></p>
+        <h1>每日行程</h1>
+        <p>切換查看行程細節，包含交通、地址、費用與備註。</p>
+      </header>
+
+      <nav class="section-nav site-nav" aria-label="頁面導覽">
+        <a class="is-active" href="index.html">行程</a>
+        <a href="resources.html">工具箱</a>
+        <a href="notes.html">Checklist</a>
+      </nav>
+
+      <main id="app">
+        <section class="content-section content-section--first" id="itinerary">
+          <div
+            class="day-tabs"
+            id="day-tabs"
+            role="tablist"
+            aria-label="每日行程切換"
+          >
+            <!-- 由 JavaScript 根據天數自動產生頁籤 -->
+          </div>
+
+          <div class="days" id="days-container">
+            <!-- 由 JavaScript 根據 data/trip-data.js 動態產生 -->
+          </div>
+
+        </section>
+      </main>
+    </div>
+
+    <div class="lightbox" id="reference-lightbox" hidden>
+      <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button class="lightbox__close" type="button" data-lightbox-close>關閉</button>
+        <div class="lightbox__media">
+          <img id="lightbox-image" src="" alt="" />
+          <div class="lightbox__fallback" id="lightbox-fallback" hidden>
+          </div>
+        </div>
+        <div class="lightbox__caption">
+          <h2 id="lightbox-title"></h2>
+          <p id="lightbox-description"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="data/trip-meta.js"></script>
+    <script src="data/days/day1.js"></script>
+    <script src="data/days/day2.js"></script>
+    <script src="data/days/day3.js"></script>
+    <script src="data/days/day4.js"></script>
+    <script src="data/days/day5.js"></script>
+    <script src="data/days/day6.js"></script>
+    <script src="data/days/day7.js"></script>
+    <script src="data/days/day8.js"></script>
+    <script src="data/trip-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
