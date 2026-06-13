@@ -182,9 +182,9 @@ window.TRIP_DAY_1 = {
       color: "#ffffff"
       },
       activity: "關西機場 → 南海難波站",
-      estimatedCostText: "成人 4 位 JPY ¥3,880，兒童 1 位 JPY ¥485，合計 JPY ¥4,365。",
+      estimatedCostText: "成人JPY ¥970，兒童¥485。",
       routeInfo: "約 45 分，11 站，不需換車。",
-      note: "",
+      note: "5人共JPY ¥4,365。",
       imageDetails: [
         {
           src: "assets/images/spots/day1/nankai-namba-station.webp",
