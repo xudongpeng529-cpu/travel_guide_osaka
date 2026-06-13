@@ -366,7 +366,7 @@ window.TRIP_DAY_5 = {
           url: "https://maps.app.goo.gl/GM8HMzLiXZXBWoiZ6"
         },
         {
-          type: "official",
+          type: "map",
           url: "https://maps.app.goo.gl/gJVEECNRdaaoKTV18"
         },        
       ]

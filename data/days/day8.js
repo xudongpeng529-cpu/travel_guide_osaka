@@ -57,7 +57,7 @@ window.TRIP_DAY_8 = {
         {
           type: "map",
           label: "乘車路線",
-          url: "https://maps.app.goo.gl/ZALaFAt1fMTQLm56A"
+          url: "https://maps.app.goo.gl/9qG9i7Fe1HzgRYkK8"
         },
         {
           type: "official",

@@ -156,7 +156,7 @@ window.TRIP_DAY_3 = {
       links: [
         {
           type: "map",
-          label: "環球影城地圖",
+          label: "",
           url: "https://maps.google.com/?q=Universal+Studios+Japan"
         },
         {

@@ -219,13 +219,13 @@ window.TRIP_DAY_2 = {
       activity: "往中百舌鳥方向",
       estimatedCostText: "JPY ¥2,385",
       routeInfo: "約 25 分，11 站",
-      note: "",
+      note: "5人共JPY ¥2,385，箕面萱野站 → 動物園前站",
       images: [],
       links: [
         {
           type: "map",
           label: "乘車路線",
-          url: "https://maps.app.goo.gl/2x9s3rXQJxv8PJUb6"
+          url: "https://maps.app.goo.gl/BwCgbFi6EKLG3WEw5"
         },
         {
           type: "official",
@@ -269,7 +269,7 @@ window.TRIP_DAY_2 = {
       transport: "步行",
       activity: "",
       estimatedCostText: "成人 JPY ¥500、兒童 JPY ¥200",
-      note: "可停留至約 14:00。",
+      note: "5人共JPY ¥2,200，可停留至約 14:00。",
       images: [
         "assets/images/spots/day2/tennoji-zoo.webp"
       ],

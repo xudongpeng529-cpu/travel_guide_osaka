@@ -165,7 +165,7 @@ window.TRIP_DAY_4 = {
       links: [
         {
           type: "map",
-          url: "https://maps.google.com/?q=Sagano+Romantic+Train"
+          url: "https://maps.app.goo.gl/LCxCyX31knHFB97v8"
         },
         {
           type: "official",
