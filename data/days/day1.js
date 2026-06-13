@@ -79,8 +79,37 @@ window.TRIP_DAY_1 = {
       estimatedCostText: "機票 5 人 NT$60,172",
       routeInfo: "飛行時間約 2 小時 40 分鐘。",
       note: "機型 BOEING B737。",
-      images: [
-        "assets/images/spots/day1/taoyuan-airport-t1.webp"
+      imageDetails: [
+        {
+          src: "assets/images/spots/day1/taoyuan-airport-t1.webp",
+          title: "關西機場",
+          description: ""
+        },
+        {
+          src: "assets/images/vjw/hsu_dung_peng.webp",
+          title: "許東朋",
+          description: "hsu_dung_peng"
+        },
+        {
+          src: "assets/images/vjw/li_ying_ying.webp",
+          title: "李盈楹",
+          description: "li_ying_ying"
+        },
+        {
+          src: "assets/images/vjw/hsu_chun_teng.webp",
+          title: "許駿騰",
+          description: "hsu_chun_teng"
+        },
+        {
+          src: "assets/images/vjw/hsu_chun_cheng.webp",
+          title: "許浚承",
+          description: "hsu_chun_cheng"
+        },
+        {
+          src: "assets/images/vjw/hsu_chun_chuan.webp",
+          title: "許駿權",
+          description: "hsu_chun_chuan"
+        },
       ],
       links: [
         {
